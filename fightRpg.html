@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fightRpg.css" />
+    <title>Fight & conquer</title>
+  </head>
+  <body>
+    <h1>Fight Arena</h1>
+    <div class="fightContainer">
+      <div class="charContainer" id="playerChar"></div>
+      <div class="playerImage"></div>
+      <div class="charContainer" id="enemyChar"></div>
+      <div class="monsterImage"></div>
+      <span class="updateBoxPlayer"></span>
+      <span class="updateBoxMonster"></span>
+      <span class="lootDrop"></span>
+      <div class="playerController">
+        <div class="buttonContainer">
+          <button class="attackBtn slashAttack">Slash</button>
+          <button class="attackBtn shieldBlock">Meditate</button>
+          <button class="attackBtn shootArrow">Shoot</button>
+          <button class="attackBtn heal">Heal</button>
+        </div>
+      </div>
+    </div>
+    <script src="fightRpgMonster.js"></script>
+    <script src="fightRpgPlayer.js"></script>
+    <script src="gameFlow.js"></script>
+  </body>
+</html>
